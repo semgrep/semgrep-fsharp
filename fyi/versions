@@ -1,0 +1,43 @@
+File: semgrep-grammars/src/tree-sitter-fsharp/LICENSE
+Git repo name: tree-sitter-fsharp
+Latest commit in repo: fa69ca8c557de73c25db541244d54dbde88387e0
+Last change in file:
+  commit f87a92a497f7386f17e679ba4b82ab8b33874db5
+  Author: Nikolaj Sidorenco <Nikolaj176@hotmail.com>
+  Date:   Thu Feb 9 09:53:34 2023 +0100
+  
+      Create LICENSE
+---
+File: semgrep-grammars/src/tree-sitter-fsharp/grammar.js
+Git repo name: tree-sitter-fsharp
+Latest commit in repo: fa69ca8c557de73c25db541244d54dbde88387e0
+Last change in file:
+  commit 15ba1b3ba157d5587f8f6b351bec08da197bc6f0
+  Author: varon <varon-github@outlook.com>
+  Date:   Thu Aug 3 21:58:38 2023 +0200
+  
+      Fix comment in string literals (#29)
+      
+      * Add test for // in string literals
+      
+      * Fix // breaking string parsing (https:// etc.)
+      
+      This solves the problem by moving the string comments directly into the
+      expression tree, rather than externalizing them.
+      
+      This is important, because it allows for us to conditionally allow the
+      comment tokens based on the context.
+---
+File: semgrep-grammars/src/semgrep-fsharp/grammar.js
+Git repo name: ocaml-tree-sitter-semgrep
+Latest commit in repo: 62c59803ce966ac00210b5ed8aa163a926f7eaad
+Last change in file:
+  commit 3788fdedb4014c53646067b303d78263f11c1118
+  Author: pad <pad@r2c.dev>
+  Date:   Wed Oct 11 22:01:56 2023 +0200
+  
+      Adding fsharp!
+      
+      test plan:
+      ./test-lang fsharp
+---
